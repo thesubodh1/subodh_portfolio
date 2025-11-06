@@ -1,4 +1,5 @@
 import Titles from "./Titles";
+import Icons from "./Icon";
 
 export default function About() {
   return (
@@ -41,6 +42,31 @@ export default function About() {
             </Titles>
           </div>
         </div>
+      </div>
+
+      <div className="about-skills">
+        <h2 className="about-heading">Skills</h2>
+
+        <div className="section-using-now">
+            <p className="subheading">using now:</p>
+            <div className="technologies">
+                <div><Icons name="logo-html5" className="tech-icons html"/><span>HTML</span></div>
+                <div><Icons name="logo-css3" className="tech-icons css"/><span>CSS</span></div>
+                <div><Icons name="logo-javascript" className="tech-icons javascript"/><span>JAVASCRIPT</span></div>
+                <div><Icons name="logo-python" className="tech-icons python"/><span>PYTHON</span></div>
+                <div><Icons name="analytics-outline" className="tech-icons api"/><span>REST API</span></div>
+                <div><Icons name="logo-python" className="tech-icons django"/><span>DJANGO</span></div>
+                <div><Icons name="logo-github" className="tech-icons github"/><span>GITHUB</span></div>
+                <div><Icons name="logo-ionitron" className="tech-icons ai"/><span>MACHINE LEARNING</span></div>
+                <div><Icons name="logo-react" className="tech-icons react"/><span>REACT</span></div>
+            </div>
+        </div>
+        <p className="subheading">learning:</p>
+        <div className="technologies">
+                <div><Icons name="logo-react" className="tech-icons react"/><span>REACT</span></div>
+                <div><Icons name="logo-docker" className="tech-icons docker"/><span>DOCKER</span></div>
+                <div><Icons name="logo-nodejs" className="tech-icons node"/><span>NODE JS</span></div>
+            </div>
       </div>
     </section>
   );

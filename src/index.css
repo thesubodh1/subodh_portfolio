@@ -139,13 +139,20 @@ html {
 }
 
 .about-contents{
-  border-top: 5px solid black
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  margin-bottom: 3.2rem;
 }
 
 .about-titles{
   margin-top: 3.2rem;
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  gap: 6.4rem;
+  text-align: left;
+  width: 80%;
+  transform: translateX(20%);
+  margin-bottom: 9.6rem;
 }
 
 .about-titles > :nth-child(1){
@@ -159,4 +166,113 @@ html {
 
 .about-titles > :nth-child(3){
   grid-column: 2/4;
+}
+
+.about-title{
+  position: relative;
+  
+
+}
+
+.icon{
+  height: 6.2rem;
+  width: 6.2rem;
+  position: absolute;
+  color: #94a3b8;
+  left: -4rem;
+  top: -2rem;
+  z-index: -10;
+  filter:brightness(0);
+}
+
+.title-heading{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+
+.about-desc{
+  font-size: 1.5rem;
+}
+
+.about-skills{
+  width: 70%;
+  transform: translateX(20%);
+}
+
+
+.subheading{
+  text-align: left;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  color: #000;
+  margin-bottom: 2.4rem;
+}
+
+.technologies{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 4.8rem;
+}
+
+.tech-icons{
+  height: 8rem;
+  width: 8rem;
+}
+
+.technologies div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.tech-icons.html{
+  color: #ff4500;
+}
+
+.tech-icons.css{
+  color: #2965f1;
+}
+
+.tech-icons.javascript{
+  color: #F7DF1E;
+  background-color: #000;
+  border: none;
+}
+
+.tech-icons.python{
+  color: #3776AB;
+}
+
+.tech-icons.api{
+  color: #5f5ffc;
+}
+
+.tech-icons.django{
+  color: #092E20;
+}
+
+.tech-icons.github{
+  color: #F05032;
+}
+
+.tech-icons.ai{
+  color: #3498DB;
+}
+
+.tech-icons.react{
+  color: #61DAFB;
+}
+
+.tech-icons.docker{
+  color: #2496ED;
+}
+
+.tech-icons.node{
+  color: #339933;
 }
