@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* section Hero Starts */
+.section-hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #116a77;
+  color: #dfe3ea;
+  justify-content: center;
+}
+
+.hero-img {
+  width: 100%;
+  display: block;
+}
+
+.hero-text-box {
+  padding: 12.8rem 4.8rem 4.8rem 4.8rem;
+  text-align: left;
+}
+
+.hero-intro {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.hero-heading {
+  font-size: 6.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.hero-desc {
+  font-size: 2.4rem;
+  margin-bottom: 4.8rem;
+}
+
+.hero-text-box div {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.resume-btn {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: inherit;
+  background-color: #072a30;
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 9px;
+}
+
+.hero-icon-section {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.social-logo {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #072a30;
+  background-color: #dfe3ea;
+  border-radius: 50%;
+  padding: 0.8rem;
+}
+
+
+.hero-description{
+  background-color: #0f1012;
+  color: #dfe3ea;
+  padding: 2.4rem;
+  text-align: left;
+}
+
+.desc-text{
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
