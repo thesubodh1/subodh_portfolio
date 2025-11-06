@@ -61,12 +61,16 @@ export default function About() {
                 <div><Icons name="logo-react" className="tech-icons react"/><span>REACT</span></div>
             </div>
         </div>
-        <p className="subheading">learning:</p>
+        <p className="subheading margin-top">learning:</p>
         <div className="technologies">
                 <div><Icons name="logo-react" className="tech-icons react"/><span>REACT</span></div>
                 <div><Icons name="logo-docker" className="tech-icons docker"/><span>DOCKER</span></div>
                 <div><Icons name="logo-nodejs" className="tech-icons node"/><span>NODE JS</span></div>
             </div>
+      </div>
+
+      <div className="portfolio-image">
+        <h2 className="portfolio-text">Portfolio</h2>
       </div>
     </section>
   );
