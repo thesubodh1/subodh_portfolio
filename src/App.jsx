@@ -13,6 +13,7 @@ function App() {
       <About />
       <Ribbon text="My Latest Projects"/>
       <Gallery />
+      <Ribbon text="And I am Learning Everyday"/>
     </>
   );
 }

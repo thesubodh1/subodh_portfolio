@@ -18,7 +18,7 @@ export default function About() {
         <h3 className="about-subheading">Explore</h3>
         <div className="about-contents">
           <div className="about-titles">
-            <Titles heading="Design" iconName="brush-outline" className="icon">
+            <Titles heading="Design" iconName="brush-outline" className="icon brush">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
               laudantium quasi soluta reprehenderit.
             </Titles>
@@ -26,7 +26,7 @@ export default function About() {
             <Titles
               heading="Development"
               iconName="construct-outline"
-              className="icon"
+              className="icon development"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
               laudantium quasi soluta reprehenderit.
@@ -35,7 +35,7 @@ export default function About() {
             <Titles
               heading="Maintenance"
               iconName="cog-outline"
-              className="icon"
+              className="icon cog"
             >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
               laudantium quasi soluta reprehenderit.
@@ -69,7 +69,7 @@ export default function About() {
             </div>
       </div>
 
-      <div className="portfolio-image">
+      <div className="portfolio-image margin-top">
         <h2 className="portfolio-text">Portfolio</h2>
       </div>
     </section>
