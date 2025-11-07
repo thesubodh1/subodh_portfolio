@@ -67,6 +67,17 @@ html {
   display: inline-block;
   padding: 1.2rem;
   border-radius: 9px;
+  margin-bottom: 0.8rem;
+}
+
+.download-count{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.download-count strong{
+  font-size: 2.4rem;
+  color:#92b1f5 ;
 }
 
 .hero-icon-section {

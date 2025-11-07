@@ -2,7 +2,7 @@ import profilePicture from "../assets/Profile.jpg";
 import Button from "./Button";
 import Icons from "./Icon";
 
-export default function Hero() {
+export default function Hero({downloadCount,onDownload}) {
   return (
     <>
       <section className="section-hero">
@@ -13,9 +13,10 @@ export default function Hero() {
             Python | Django | Rest API | Machine Learning
           </p>
           <div>
-            <a href="/Subodh Resume.pdf" download className="resume-btn">
+            <a href="/Subodh Resume.pdf" download className="resume-btn" onClick={onDownload}>
               &darr; Download Resume
             </a>
+            <p className="download-count"><strong>{downloadCount}</strong> Resume Downloaded</p>
           </div>
 
           <div className="hero-icon-section">
