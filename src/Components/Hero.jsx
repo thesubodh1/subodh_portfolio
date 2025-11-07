@@ -2,11 +2,12 @@ import profilePicture from "../assets/Profile.jpg";
 import Button from "./Button";
 import Icons from "./Icon";
 
-export default function Hero({downloadCount,onDownload}) {
+export default function Hero({downloadCount,onDownload,onHandleDarkMode}) {
   return (
     <>
       <section className="section-hero">
         <div className="hero-text-box">
+          <button onClick={onHandleDarkMode}>Dark Mode</button>
           <p className="hero-intro">Hi, I am</p>
           <h1 className="hero-heading">Subodh Dahal</h1>
           <p className="hero-desc">

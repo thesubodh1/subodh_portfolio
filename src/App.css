@@ -14,12 +14,52 @@
   }
 }
 
-
-
-
 @media (prefers-reduced-motion: no-preference) {
   .icon.cog {
     animation: logo-spin infinite 20s linear;
   }
+}
 
+.dark .section-hero {
+  background-color: #0b101d;
+  color: #f1f5f9;
+}
+
+.dark .social-logo {
+  background-color: #f1f5f9;
+  fill: #072a30;
+}
+
+.dark .section-ribbon {
+  color: #dfe3ea;
+  background-color: #000;
+}
+
+.dark .hero-description {
+  background-color: #000;
+}
+
+.dark .section-about {
+  background-color: #0b101d;
+  color: #f1f5f9;
+}
+
+.dark .icon{
+  filter: brightness(0);
+}
+
+.dark .about-heading{
+  border-color:#f1f5f9;
+}
+
+.dark .about-subheading{
+  border-color: #f1f5f9;
+}
+
+.dark .about-contents{
+  border-color: #f1f5f9;
+}
+
+.dark .subheading{
+  color: #f1f5f9;
 }

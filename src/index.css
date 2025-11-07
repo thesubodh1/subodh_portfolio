@@ -23,9 +23,10 @@ html {
 .section-hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: #116a77;
-  color: #dfe3ea;
+  background-color: #aeafb0;
+  color: #1e293b;
   justify-content: center;
+  transition: all 1s ease;
 }
 
 .hero-img {
@@ -62,7 +63,7 @@ html {
 .resume-btn {
   font-size: 2.4rem;
   text-decoration: none;
-  color: inherit;
+  color:#f1f5f9  ;
   background-color: #072a30;
   display: inline-block;
   padding: 1.2rem;
@@ -77,7 +78,7 @@ html {
 
 .download-count strong{
   font-size: 2.4rem;
-  color:#92b1f5 ;
+  color:#f1f5f9  ;
 }
 
 .hero-icon-section {
@@ -89,15 +90,15 @@ html {
 .social-logo {
   height: 3.2rem;
   width: 3.2rem;
-  color: #072a30;
-  background-color: #dfe3ea;
+  fill: #f1f5f9 ;
+  background-color: #072a30;
   border-radius: 50%;
   padding: 0.8rem;
 }
 
 
 .hero-description{
-  background-color: #0f1012;
+  background-color: #116a77;
   color: #dfe3ea;
   padding: 2.4rem;
   text-align: left;
@@ -110,9 +111,9 @@ html {
 
 /* About section starts */
 .section-about{
-  background-color: #116a77;
+  background-color: #aeafb0;
   padding-top: 8rem;
-  color: #dfe3ea;
+  color: #1e293b;
 }
 
 .about-header, .about-content{
@@ -189,11 +190,11 @@ html {
   height: 6.2rem;
   width: 6.2rem;
   position: absolute;
-  color: #94a3b8;
+  color: #dfe3ea;
   left: -4rem;
   top: -2rem;
   z-index: -10;
-  filter:brightness(0);
+
 }
 
 .title-heading{
@@ -310,8 +311,8 @@ html {
 
 /* ribbon section */
 .section-ribbon{
-  background-color: #000;
-  color: #dfe3ea;
+  background-color: #116a77;
+  color:#dfe3ea ;
   padding: 2.4rem;
 }
 

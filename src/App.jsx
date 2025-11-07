@@ -9,6 +9,11 @@ import Gallery from "./Components/Gallery";
 function App() {
   const actualCount = JSON.parse(localStorage.getItem("totalCount")) || 0;
   const [count, setCount] = useState(actualCount);
+  const [darkMode, setDarkMode] = useState(false);
+
+  function handleDarkMode() {
+    setDarkMode((previousMode) => !previousMode);
+  }
 
   function handleCount() {
     setCount((prevCounts) => {
@@ -19,14 +24,20 @@ function App() {
   useEffect(() => {
     localStorage.setItem("totalCount", JSON.stringify(count));
   }, [count]);
+
+  console.log(darkMode);
   return (
-    <>
-      <Hero downloadCount={count} onDownload={handleCount} />
-      <About />
+    <main className={darkMode ? "dark" : undefined}>
+      <Hero
+        downloadCount={count}
+        onDownload={handleCount}
+        onHandleDarkMode={handleDarkMode}
+      />
+      <About isDark={darkMode} />
       <Ribbon text="My Latest Projects" />
       <Gallery />
       <Ribbon text="And I am Learning Everyday" />
-    </>
+    </main>
   );
 }
 
