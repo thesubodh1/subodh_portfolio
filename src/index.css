@@ -36,6 +36,7 @@ html {
   display: block;
 }
 
+
 .hero-text-box {
   padding: 12.8rem 4.8rem 4.8rem 4.8rem;
   text-align: left;
@@ -59,7 +60,7 @@ html {
 
 .hero-text-box div {
   text-align: center;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 
 .resume-btn {
@@ -83,12 +84,14 @@ html {
   border-radius: 9px;
   color: #f1f5f9;
   transition: all 1s ease;
+  margin-bottom: 2.4rem;
 
 }
 
 .download-count {
   font-size: 1.8rem;
   font-weight: 500;
+  margin-bottom: 2.4rem;
 }
 
 .download-count strong {
@@ -326,6 +329,8 @@ html {
   background-color: #116a77;
   color: #dfe3ea;
   padding: 2.4rem;
+  transition: all 1s ease;
+
 }
 
 .ribbon-text {
