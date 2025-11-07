@@ -9,7 +9,7 @@ import Gallery from "./Components/Gallery";
 function App() {
   const actualCount = JSON.parse(localStorage.getItem("totalCount")) || 0;
   const [count, setCount] = useState(actualCount);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   function handleDarkMode() {
     setDarkMode((previousMode) => !previousMode);
@@ -25,13 +25,13 @@ function App() {
     localStorage.setItem("totalCount", JSON.stringify(count));
   }, [count]);
 
-  console.log(darkMode);
   return (
     <main className={darkMode ? "dark" : undefined}>
       <Hero
         downloadCount={count}
         onDownload={handleCount}
         onHandleDarkMode={handleDarkMode}
+        isDark = {darkMode}
       />
       <About isDark={darkMode} />
       <Ribbon text="My Latest Projects" />

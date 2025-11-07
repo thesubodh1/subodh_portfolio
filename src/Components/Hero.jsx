@@ -2,22 +2,39 @@ import profilePicture from "../assets/Profile.jpg";
 import Button from "./Button";
 import Icons from "./Icon";
 
-export default function Hero({downloadCount,onDownload,onHandleDarkMode}) {
+export default function Hero({
+  downloadCount,
+  onDownload,
+  onHandleDarkMode,
+  isDark,
+}) {
   return (
     <>
       <section className="section-hero">
         <div className="hero-text-box">
-          <button onClick={onHandleDarkMode}>Dark Mode</button>
           <p className="hero-intro">Hi, I am</p>
           <h1 className="hero-heading">Subodh Dahal</h1>
           <p className="hero-desc">
             Python | Django | Rest API | Machine Learning
           </p>
           <div>
-            <a href="/Subodh Resume.pdf" download className="resume-btn" onClick={onDownload}>
+            <a
+              href="/Subodh Resume.pdf"
+              download
+              className="resume-btn"
+              onClick={onDownload}
+            >
               &darr; Download Resume
             </a>
-            <p className="download-count"><strong>{downloadCount}</strong> Resume Downloaded</p>
+            <p className="download-count">
+              <strong>{downloadCount}</strong> Resume Downloaded
+            </p>
+          </div>
+
+          <div>
+            <Button onClick={onHandleDarkMode} className="btn">
+              {isDark ? "Light Mode" : "Dark Mode"}
+            </Button>
           </div>
 
           <div className="hero-icon-section">
