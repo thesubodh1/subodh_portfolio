@@ -18,13 +18,13 @@ export default function About() {
         <h3 className="about-subheading">Explore</h3>
         <div className="about-contents">
           <div className="about-titles">
-            <Titles heading="Design" iconName="brush-outline" className="icon brush">
+            <Titles heading="Development" iconName="brush-outline" className="icon brush">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
               laudantium quasi soluta reprehenderit.
             </Titles>
 
             <Titles
-              heading="Development"
+              heading="Testing"
               iconName="construct-outline"
               className="icon development"
             >
