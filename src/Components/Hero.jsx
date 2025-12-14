@@ -13,9 +13,9 @@ export default function Hero({
       <section className="section-hero">
         <div className="hero-text-box">
           <p className="hero-intro">Hi, I am</p>
-          <h1 className="hero-heading">Savya Sapkota</h1>
+          <h1 className="hero-heading">Subodh Dahal</h1>
           <p className="hero-desc">
-            Python | Java | Quality Assurance
+            Python | React | Machine Learning
           </p>
           <div>
             <a
